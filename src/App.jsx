@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1 className="text-center">Mon Projet React</h1>
+      <h1 className="text-center">Votre signe du Zodiaque apparait grâce à React</h1>
       <ZodiacForm onZodiacFound={handleZodiacFound} />
       <ZodiacClock angle={angle} />
     </div>
@@ -22,7 +22,7 @@ const ZodiacClock = ({ angle }) => {
   return (
     <div className="zodiac-clock mx-auto">
       <img src="/roue.png" alt="Zodiac Circle" className="zodiac-image img-fluid" />
-      { <div className='center' ></div>}
+      { <div className='center'></div>}
       {angle !== null && <div className="needle" style={{ transform: `rotate(${angle}deg)` }} />}
     </div>
   );

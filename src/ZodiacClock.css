@@ -23,7 +23,8 @@
   position: absolute;
   width: 4px;
   height: 100px;
-  background: red;
+  background: rgb(58, 118, 47);
+  bottom: 10%;
   top: 50%;
   left: 50%;
   transform-origin: 50% 0%;
