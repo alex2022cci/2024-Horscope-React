@@ -30,3 +30,147 @@
   transform-origin: 50% 0%;
   transform: rotate(0deg);
 }
+
+.belier{
+  border: 0px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 84%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  background: rgba(203, 18, 203, 0.433);
+  width: 30px;
+  height: 30px;
+}
+
+.taureau{
+  border: 0cap solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 80%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  background: rgba(203, 18, 203, 0.433);
+  width: 30px;
+  height: 30px;
+}
+
+.gemeaux{
+  border: 0px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 68%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+  background: rgba(203, 18, 203, 0.433);
+  width: 30px;
+  height: 30px;
+}
+
+.cancer{
+  border: 0px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  background: rgba(203, 18, 203, 0.433);
+  width: 30px;
+  height: 30px;
+}
+
+.lion{
+  border: 0px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 33%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+  background: rgba(203, 18, 203, 0.433);
+  width: 30px;
+  height: 30px;
+}
+
+.vierge{
+  border: 0px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 21%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  background: rgba(203, 18, 203, 0.433);
+  width: 30px;
+  height: 30px;
+}
+
+.balance{
+  border: 0px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 16%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  background: rgba(203, 18, 203, 0.433);
+  width: 30px;
+  height: 30px;
+}
+
+.scorpion{
+  border: 0px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 21%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  background: rgba(203, 18, 203, 0.433);
+  width: 30px;
+  height: 30px;
+}
+
+.sagittaire{
+  border: 0px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 33%;
+  left: 79%;
+  transform: translate(-50%, -50%);
+  background: rgba(203, 18, 203, 0.433);
+  width: 30px;
+  height: 30px;
+}
+
+.capricorne{
+  border: 0px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  background: rgba(203, 18, 203, 0.433);
+  width: 30px;
+  height: 30px;
+}
+
+.verseau{
+  border: 0px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 68%;
+  left: 79%;
+  transform: translate(-50%, -50%);
+  background: rgba(203, 18, 203, 0.433);
+  width: 30px;
+  height: 30px;
+}
+
+.poissons{
+  border: 0px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 80%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  background: rgba(203, 18, 203, 0.433);
+  width: 30px;
+  height: 30px;
+}
