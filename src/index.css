@@ -1,5 +1,5 @@
 * {
-    background-image: url('../public/Space.png');
+    background-image: url('../Space.png');
     background-attachment: fixed; /* Fixe l'image pendant le scroll */
     background-size: cover;
     background-position: center; /* Centre la position de l'image */
