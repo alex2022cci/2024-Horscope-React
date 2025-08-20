@@ -9,24 +9,15 @@ const App = () => {
     setAngle(angle);
   };
 
-  return (
-    <div className="container">
-      <h1 className="text-center">Votre signe du Zodiaque apparait grâce à React</h1>
-      <ZodiacForm onZodiacFound={handleZodiacFound} />
-      <ZodiacClock angle={angle} />
-    </div>
-  );
-};
-
-const ZodiacClock = ({ angle }) => {
+  const ZodiacClock = ({ angle }) => {
   return (
     <div className="zodiac-clock mx-auto">
       <img src="/roue.png" alt="Zodiac Circle" className="zodiac-image img-fluid" />
       { <div className='center'></div>}
       {angle !== null && <div className="needle" style={{ transform: `rotate(${angle}deg)` }} />}
-      <img src="/Bélier.png" alt="Bélier Zodiac Sign" className="belier" />
+      <img src="/Belier.png" alt="Belier Zodiac Sign" className="belier" />
       <img src="/Taureau.png" alt="Taureau Zodiac Sign" className="taureau" />
-      <img src="/Gémeaux.png" alt="Gémeaux Zodiac Sign" className="gemeaux" />
+      <img src="/Gemeaux.png" alt="Gemeaux Zodiac Sign" className="gemeaux" />
       <img src="/Cancer.png" alt="Cancer Zodiac Sign" className="cancer" />
       <img src="/Lion.png" alt="Lion Zodiac Sign" className="lion" />
       <img src="/Vierge.png" alt="Vierge Zodiac Sign" className="vierge" />
@@ -39,5 +30,19 @@ const ZodiacClock = ({ angle }) => {
     </div>
   );
 };
+
+  return (
+    <div className="container">
+      <div className="parallax">
+        <h1 className="text-center">Votre signe du Zodiaque apparait grâce à React</h1>
+        
+        <ZodiacClock angle={angle} />
+        <ZodiacForm onZodiacFound={handleZodiacFound} />
+      </div>
+    </div>
+  );
+};
+
+
 
 export default App;

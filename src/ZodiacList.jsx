@@ -2,9 +2,9 @@ import React from 'react';
 
 const ZodiacList = () => {
   const zodiacSigns = [
-    { sign: 'Bélier', start: 80, end: 109 },
+    { sign: 'Belier', start: 80, end: 109 },
     { sign: 'Taureau', start: 110, end: 140 },
-    { sign: 'Gémeaux', start: 141, end: 171 },
+    { sign: 'Gemeaux', start: 141, end: 171 },
     { sign: 'Cancer', start: 172, end: 202 },
     { sign: 'Lion', start: 203, end: 233 },
     { sign: 'Vierge', start: 234, end: 265 },

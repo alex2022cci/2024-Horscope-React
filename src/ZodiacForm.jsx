@@ -5,9 +5,9 @@ const ZodiacForm = ({ onZodiacFound }) => {
   const [zodiacSign, setZodiacSign] = useState('');
 
   const zodiacSigns = [
-    { sign: 'Bélier', start: [3, 21], end: [4, 19], angle: 0 },
+    { sign: 'Belier', start: [3, 21], end: [4, 19], angle: 0 },
     { sign: 'Taureau', start: [4, 20], end: [5, 20], angle: 30 },
-    { sign: 'Gémeaux', start: [5, 21], end: [6, 20], angle: 60 },
+    { sign: 'Gemeaux', start: [5, 21], end: [6, 20], angle: 60 },
     { sign: 'Cancer', start: [6, 21], end: [7, 22], angle: 90 },
     { sign: 'Lion', start: [7, 23], end: [8, 22], angle: 120 },
     { sign: 'Vierge', start: [8, 23], end: [9, 22], angle: 150 },
@@ -49,12 +49,19 @@ const ZodiacForm = ({ onZodiacFound }) => {
       <div className="card-body">
         <form onSubmit={handleSubmit}>
           <div className="form-group">
+            <label className='text-justify' htmlFor="helper">Vous pouvez entrer votre date de naissance au clavier OU cliquer sur le calendrier 📅 à droite</label>
+            <br />
             <label htmlFor="birthDate">Date de naissance:</label>
-            <input type="date" className="form-control" id="birthDate" value={birthDate} onChange={handleDateChange} required />
+            <input type="date" className="form-control text-info" id="birthDate" value={birthDate} onChange={handleDateChange} required />
           </div>
           <button type="submit" className="btn btn-primary">Trouver le signe astrologique</button>
         </form>
-        {zodiacSign && <p className="mt-3">Votre signe astrologique est : {zodiacSign}</p>}
+        {zodiacSign && (
+          <>
+            <p className="mt-3">Votre signe astrologique est : <span className="text-warning">{zodiacSign}</span></p>
+            <p><img src={`../${zodiacSign}.png`} alt={zodiacSign} /></p>
+          </>
+        )}
       </div>
     </div>
   );

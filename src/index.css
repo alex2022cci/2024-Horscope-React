@@ -1,0 +1,21 @@
+* {
+    background-image: url('../public/Space.png');
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+    background-size: cover;
+    background-position: center; /* Centre la position de l'image */
+    background-repeat: repeat-y; /* Empêche l'image de se répéter en fonction de la taille d'écran */
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+p, label {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    text-shadow: 9px 2px 4px #e3e16fbe;
+}
