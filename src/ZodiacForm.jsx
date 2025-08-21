@@ -48,18 +48,18 @@ const ZodiacForm = ({ onZodiacFound }) => {
     <div className="card my-4">
       <div className="card-body">
         <form onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label className='text-justify' htmlFor="helper">Vous pouvez entrer votre date de naissance au clavier OU cliquer sur le calendrier 📅 à droite</label>
+          <div className="form-group text-center">
+            <label className='' htmlFor="helper">Vous pouvez entrer votre date de naissance au clavier OU cliquer sur le calendrier 📅 à droite</label>
             <br />
             <label htmlFor="birthDate">Date de naissance:</label>
-            <input type="date" className="form-control text-info" id="birthDate" value={birthDate} onChange={handleDateChange} required />
+            <input type="date" className="text-info" id="birthDate" value={birthDate} onChange={handleDateChange} required />
           </div>
-          <button type="submit" className="btn btn-primary">Trouver le signe astrologique</button>
+          <button type="submit" className="btn btn-lg align-self-center btn-primary">Trouver le signe astrologique</button>
         </form>
         {zodiacSign && (
           <>
             <p className="mt-3">Votre signe astrologique est : <span className="text-warning">{zodiacSign}</span></p>
-            <p><img src={`../${zodiacSign}.png`} alt={zodiacSign} /></p>
+            <p><img className='img-fluid' src={`../${zodiacSign}.png`} alt={zodiacSign} /></p>
           </>
         )}
       </div>

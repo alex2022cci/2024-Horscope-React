@@ -39,7 +39,6 @@
   top: 84%;
   left: 49%;
   transform: translate(-50%, -50%);
-  background: rgba(203, 18, 203, 0.433);
   width: 30px;
   height: 30px;
 }
@@ -51,7 +50,6 @@
   top: 80%;
   left: 33%;
   transform: translate(-50%, -50%);
-  background: rgba(203, 18, 203, 0.433);
   width: 30px;
   height: 30px;
 }
@@ -63,7 +61,6 @@
   top: 68%;
   left: 21%;
   transform: translate(-50%, -50%);
-  background: rgba(203, 18, 203, 0.433);
   width: 30px;
   height: 30px;
 }
@@ -75,7 +72,6 @@
   top: 50%;
   left: 15%;
   transform: translate(-50%, -50%);
-  background: rgba(203, 18, 203, 0.433);
   width: 30px;
   height: 30px;
 }
@@ -87,7 +83,6 @@
   top: 33%;
   left: 21%;
   transform: translate(-50%, -50%);
-  background: rgba(203, 18, 203, 0.433);
   width: 30px;
   height: 30px;
 }
@@ -99,7 +94,6 @@
   top: 21%;
   left: 34%;
   transform: translate(-50%, -50%);
-  background: rgba(203, 18, 203, 0.433);
   width: 30px;
   height: 30px;
 }
@@ -108,10 +102,9 @@
   border: 0px solid red;
   border-radius: 50%;
   position: absolute;
-  top: 16%;
-  left: 49%;
+  top: 17%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  background: rgba(203, 18, 203, 0.433);
   width: 30px;
   height: 30px;
 }
@@ -123,7 +116,6 @@
   top: 21%;
   left: 65%;
   transform: translate(-50%, -50%);
-  background: rgba(203, 18, 203, 0.433);
   width: 30px;
   height: 30px;
 }
@@ -135,7 +127,6 @@
   top: 33%;
   left: 79%;
   transform: translate(-50%, -50%);
-  background: rgba(203, 18, 203, 0.433);
   width: 30px;
   height: 30px;
 }
@@ -147,7 +138,6 @@
   top: 50%;
   left: 84%;
   transform: translate(-50%, -50%);
-  background: rgba(203, 18, 203, 0.433);
   width: 30px;
   height: 30px;
 }
@@ -159,7 +149,6 @@
   top: 68%;
   left: 79%;
   transform: translate(-50%, -50%);
-  background: rgba(203, 18, 203, 0.433);
   width: 30px;
   height: 30px;
 }
@@ -171,7 +160,6 @@
   top: 80%;
   left: 65%;
   transform: translate(-50%, -50%);
-  background: rgba(203, 18, 203, 0.433);
   width: 30px;
   height: 30px;
 }
