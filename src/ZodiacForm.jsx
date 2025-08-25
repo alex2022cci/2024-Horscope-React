@@ -44,6 +44,14 @@ const ZodiacForm = ({ onZodiacFound }) => {
     onZodiacFound(sign ? sign.angle : null);
   };
 
+  const zodiacElement = (() => {
+    if (['Belier', 'Lion', 'Sagittaire'].includes(zodiacSign)) return { className: "text-danger", text: "Feu 🔥" };
+    if (['Taureau', 'Vierge', 'Capricorne'].includes(zodiacSign)) return { className: "text-info", text: "Terre 🌍" };
+    if (['Gemeaux', 'Balance', 'Verseau'].includes(zodiacSign)) return { className: "text-success", text: "Air 💨" };
+    if (['Cancer', 'Scorpion', 'Poissons'].includes(zodiacSign)) return { className: "text-primary", text: "Eau 💧" };
+    return {};
+  })();
+
   return (
     <div className="card my-4">
       <div className="card-body">
@@ -59,6 +67,7 @@ const ZodiacForm = ({ onZodiacFound }) => {
         {zodiacSign && (
           <>
             <p className="mt-3">Votre signe astrologique est : <span className="text-warning">{zodiacSign}</span></p>
+            <p>C'est un signe de l'élément <span className={zodiacElement.className}>{zodiacElement.text}</span></p>
             <p><img className='img-fluid' src={`../${zodiacSign}.png`} alt={zodiacSign} /></p>
           </>
         )}
